@@ -26,7 +26,11 @@ document.getElementById('nm').innerHTML=arr[i][j];
 //side navigation bar
 function opennav()
 {
-    document.getElementById("mySideNav").style.width="20%";
+    if(window.screen.width>480)           //for mobile compatibility
+       document.getElementById("mySideNav").style.width="20%";
+    else
+       document.getElementById("mySideNav").style.width="40%";
+
     document.body.style.backgroundColor="rgba(0,0,0,0.4)";
 }
 function closenav()

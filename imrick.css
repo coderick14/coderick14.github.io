@@ -74,7 +74,7 @@ footer {
     height: 100%;
     width: 0px;
     position: fixed;
-    background-color: #111;
+    background-color: rgba(1,1,1,0.7);
     top:0;
     left: 0x;
     z-index:1;
@@ -87,7 +87,7 @@ footer {
     display: block;
     color:darkgray;
     padding: 8px 8px 8px 32px;
-    font-size: 1em;
+    font-size: 1.2em;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -102,4 +102,45 @@ footer {
     right: 25px;
     font-size: 36px;
 
+}
+
+@media screen and (max-device-width: 481px) {
+  #intro {
+        padding: 5px;
+        width:70%;
+        position: absolute;
+        top: 45%;
+        right: 15%;
+        font-size: 1.5em;
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+  }
+  #footer {
+    padding: 5px;
+    width:50%;
+    position: absolute;
+    font-size: 0.9em;
+    right: 25%;
+    top: 90%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+  }
+  .sidenav a
+  {
+      display: block;
+      color:darkgray;
+      padding: 8px 8px 8px 32px;
+      font-size: 3em;
+      text-decoration: none;
+      transition: 0.3s;
+  }
+  #menuIcon {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 1;
+    margin: 10px;
+    cursor: pointer;
+  }
 }
