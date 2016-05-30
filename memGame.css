@@ -33,3 +33,14 @@ h2,h3 {
   transition: all 1s;
   cursor: pointer;
 }
+
+@media screen and (max-device-width: 481px) {
+  h2,h3 {
+    font-weight: 200;
+    font-size: 2em;
+    color: azure;
+    padding: 4px;
+    text-align: center;
+    line-height: 2em;
+  }
+}
