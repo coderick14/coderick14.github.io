@@ -1,5 +1,5 @@
 var arr=[],solved=[],rotated=[];
-var curIndex,curObj,activeIndex=null,activeObj=null;
+var activeIndex=null,activeObj=null;
 var countSolved=0,score=0,noOfMoves=0;
 var tt,secs=60,gameStarted=0;//gameStarted waits for the first click to start the timer
 //tt sets and clears the interval for timer
@@ -41,7 +41,7 @@ function timer()
 }
 
 //function to check whether the two consecutive boxes have the same value
-function check(i,obj)
+function check(i,obj,curIndex,curObj)
 {
   if(arr[curIndex]==arr[i])
   {
@@ -72,6 +72,7 @@ function reveal(obj,i)
     gameStarted=1;
     tt=setInterval(timer,1000);
   }
+  var curIndex,curObj;
   if(!solved[i] && i!=activeIndex) {
     console.log(i);
     obj.style.backgroundColor='lightgray';
@@ -86,7 +87,7 @@ function reveal(obj,i)
       curIndex=activeIndex;
       curObj=activeObj;
       activeIndex=activeObj=null;
-      setTimeout(check,1500,i,obj);
+      setTimeout(check,1500,i,obj,curIndex,curObj);
     }
   }
 }
