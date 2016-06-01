@@ -143,4 +143,17 @@ footer {
     margin: 10px;
     cursor: pointer;
   }
+  #whoIam,#whatIdo,#contact {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height:350px;
+    color: darkslategray;
+    font-size:1.5em;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.5em;
+  }
+
 }
