@@ -28,6 +28,16 @@ body {
   font-weight: 100;
 }
 
+#code {
+  background-image: url('code.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100vw;
+  height: 90vh;
+}
+
 #intro {
     padding: 5px;
     width:40%;
