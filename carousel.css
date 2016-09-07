@@ -22,6 +22,12 @@ body	{
 #images	{
 	width: 100%;
 	cursor: pointer;
+	transition: opacity 1s linear;
+	-moz-transition: opacity 1s linear;
+}
+
+.image-opacity {
+	opacity: 0;
 }
 
 #image-caption {

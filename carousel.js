@@ -1,6 +1,6 @@
 var images = new Array();
 var length = 4;
-var slideIndex = 0;
+var slideIndex = 1;
 var timer;
 
 var slideImage = document.getElementById('images');
@@ -14,6 +14,12 @@ images[1] = "wenger.jpg";
 images[2] = "messi.jpg";
 images[3] = "nadal.jpg";
 
+function makeOpaque()	{
+	slideImage.style.opacity = 1;
+	slideImage.src = images[slideIndex];
+	slideIndex = (slideIndex+1)%length;
+}
+
 function showSlides()	{
 	var i;
 	for(i=0;i<length;i++)	{
@@ -23,8 +29,8 @@ function showSlides()	{
     dots[slideIndex].className += " active";
     captions[slideIndex].className += " active-caption";
     imageCaption.innerHTML = captions[slideIndex].innerHTML;
-	slideImage.src = images[slideIndex];
-	slideIndex = (slideIndex+1)%length;
+    slideImage.style.opacity = 0;
+	setTimeout(makeOpaque,1000);
 }
 
 function currentSlide(i)	{
@@ -41,12 +47,11 @@ function pauseSlidesAt(i)	{
 }
 
 function start()	{
-	timer = setInterval(showSlides,5000);
+	timer = setInterval(showSlides,4000);
 }
 
 function halt()	{
 	clearInterval(timer);
 }
 
-showSlides();
 start();
