@@ -9,16 +9,10 @@ var captions = document.getElementsByClassName('captions');
 var imageCaption = document.getElementById('image-caption');
 
 
-images[0] = "ronaldo.jpg";
-images[1] = "wenger.jpg";
-images[2] = "messi.jpg";
-images[3] = "nadal.jpg";
-
-function makeOpaque()	{
-	slideImage.style.opacity = 1;
-	slideImage.src = images[slideIndex];
-	slideIndex = (slideIndex+1)%length;
-}
+images[0] = "../../Pictures/ronaldo.jpg";
+images[1] = "../../Pictures/wenger.jpg";
+images[2] = "../../Pictures/messi.jpg";
+images[3] = "../../Pictures/nadal.jpg";
 
 function showSlides()	{
 	var i;
@@ -29,8 +23,8 @@ function showSlides()	{
     dots[slideIndex].className += " active";
     captions[slideIndex].className += " active-caption";
     imageCaption.innerHTML = captions[slideIndex].innerHTML;
-    slideImage.style.opacity = 0;
-	setTimeout(makeOpaque,1000);
+	slideImage.src = images[slideIndex];
+	slideIndex = (slideIndex+1)%length;
 }
 
 function currentSlide(i)	{
@@ -44,6 +38,7 @@ function pauseSlidesAt(i)	{
 	halt();
 	slideIndex = i;
 	showSlides();
+	console.log(slideIndex);
 }
 
 function start()	{
