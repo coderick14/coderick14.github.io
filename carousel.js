@@ -9,10 +9,10 @@ var captions = document.getElementsByClassName('captions');
 var imageCaption = document.getElementById('image-caption');
 
 
-images[0] = "../../Pictures/ronaldo.jpg";
-images[1] = "../../Pictures/wenger.jpg";
-images[2] = "../../Pictures/messi.jpg";
-images[3] = "../../Pictures/nadal.jpg";
+images[0] = "ronaldo.jpg";
+images[1] = "wenger.jpg";
+images[2] = "messi.jpg";
+images[3] = "nadal.jpg";
 
 function showSlides()	{
 	var i;
