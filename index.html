@@ -1,75 +1,64 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Made by Rick with &hearts;</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="imrick.css">
-  </head>
-  <body>
-    <img src="menu.png" id="menuIcon" onclick="opennav()">
-    <div id="mySideNav" class="sidenav">
-        <a href="javascript:void(0)" onclick="closenav()" class="closebtn">&times;</a>
-        <a href="#whoIam">Who I am</a>
-        <a href="#whatIdo">What I do</a>
-        <a href="memGame.html">Memory Game</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <head>
+        <meta charset="utf-8">
+        <title>Deep Bhattacharyya</title>
+        <link rel="shortcut icon" type="image/png" href="dB-Favicon.png"/>
+         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret+One">
 
-      <div id="coverpage">
-          <div id="intro">Hey guys!! I'm Deep</div>
-          <div id="footer">Scroll down to know more</div>
-      </div>
-      <br/><br/>
-      <center>
-        <div id="whoIam" style="height:375px">
-          <p style="font-size:32px;font-weight:400">Hi.</p>
-          <br/>
-          <p>
-              I'm Deep Bhattacharyya. A student of Computer Science and Engineering
-              at NIT Trichy. I come from the City of Joy,
-              <a title="Click to know more about Kolkata" target="_blank" style="color:red;text-decoration:none" href="https://www.google.co.in/search?q=kolkata&gws_rd=cr,ssl&ei=55NRV5uhBoz-vgS-y7zQBQ">Kolkata.</a>
-              Did my schooling from Delhi Public School,Ruby Park.
-              For me, things that make my college life fun are my friends. The late night snacks at IIM,
-              and playing football at the Jade ground form integral parts of my daily routine :):).
-              But I miss the home cooked food here, which I never thought I would. But now that I see that
-              mess food sucks....having home cooked food feels like heaven.
-          </p>
+        <link rel="stylesheet" href="css/sexample.css">
+        <style type="text/css">
+            html, body {
+                background: #222;
+                overflow: hidden;
+            }
+
+            #typed {
+                font-family: 'Poiret One',serif;
+                color: white;
+                font-size: 48px;
+                position: fixed;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            footer {
+                bottom: 0;
+                font-size: 0.8em;
+                font-family: 'Poiret One',serif;
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <span id="typed"></span>
         </div>
-        <br/><br/>
-        <div id="code"></div>
-        <div id="whatIdo" style="background-color:#F5F5DC;height:350px">
-          <p>
-            My major interests involve coding and playing football. I'm extremely interested
-            in Algorithms and WebDev. I've developed some small browser based games, mostly in Javascript.
-            But I love backend related stuff too, even though I'm still in the learning phase. I've been
-            solving algorithmic problems on platforms like hackerrank for around a year or so.
-            <a href="https://www.hackerrank.com/coderick14" style="text-decoration:none" target="_blank">
-              Click here </a>to see my profile.
-          </p>
-          <br/>
-          <p>I &hearts; <span id='nm' style="color:red"></span></p>
-        </div>
-        <div id="contact" style="background-color:#D8ECF3;height:250px">
-          <p>
-            If you have anything to share with me, or just want to shoot me a Hi....feel free to contact me :).<br/><br/>Find me on <br/><br/>&nbsp;
-            <a title="facebook" href="https://www.facebook.com/profile.php?id=100010424946860" target="_blank">
-              <img src="fblogo.png" style="height:40px;width:40px;border-radius:50%">
-            </a>
-            &nbsp;
-            <a title="google plus" href="https://plus.google.com/111603279999790774693/posts/p/pub" target="_blank">
-              <img src="g+logo.jpeg" style="height:40px;width:40px;border-radius:50%">
-            </a>
-            &nbsp;
-            <a title="Github" href="https://github.com/coderick14" target="_blank">
-              <img src="gitlogo.png" style="height:40px;width:40px;border-radius:50%">
-            </a>
-            &nbsp;
-            <a title="Gitter" href="https://gitter.im/coderick14" target="_blank">
-              <img src="gitterlogo.jpg" style="height:40px;width:40px;border-radius:50%">
-            </a>
-          </p>
-        </div>
-        <footer>Made with HTML, CSS, Javascript and &hearts;</footer>
-      </center>
-    <script src="imrick.js" type="text/javascript"></script>
-  </body>
+        <footer>Made with jQuery, Google Fonts and lots of &hearts;</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/sketch.js"></script>
+        <script type="text/javascript" src="js/drawBubbles.js"></script>
+        <script type="text/javascript" src="js/typed.js"></script>
+         <script>
+             $(function() {
+               $("#typed").typed( {
+                 strings: ["Hi. ^1000", "I'm Deep Bhattacharyya ^1000", "A sophomore at NIT Trichy,<br>Computer Science and Engineering ^2000","Something cool is coming up here. ^1000 <br>So, sit tight!!!^2000", "Yup. You can carry on now. <br> That was all!!<br>Thanks."],
+                 typeSpeed: 5,
+                 backDelay: 500,
+                 loop: false,
+                 // defaults to false for infinite loop
+                 loopCount: false,
+                 showCursor: true,
+                 callback: function() {foo();
+                 }
+               });
+               function foo() {console.log("Callback");}
+             });
+        </script>
+    </body>
 </html>
