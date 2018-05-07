@@ -1,76 +1,1104 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <!-- Set name as title -->
-    <title>Deep Bhattacharyya</title>
-    <link rel="shortcut icon" type="image/png" href="dB-Favicon.png"/>
-    <!-- Google Fonts -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata">
-    <!-- CSS for terminal feel -->
-    <link rel="stylesheet" href="css/terminal.css">
-</head>
-<body>
-    <div class="window">
-        <nav> 
-            <a href="#" class="close"></a>
-            <a href="#" class="minimize"></a>
-            <a href="#" class="maximize"></a>
-            <h1>terminal@coderick14</h1>
-        </nav> 
-        <div class="terminal">
-            <span id="typed">
-                <!-- Name -->
-                <span class='red'>root ~ <i>#</i> </span>Hi! I'm Deep Bhattacharyya. I like to build stuff.<br/>
+<!doctype html>
 
-                <!-- Education -->
-                <span class='red'>root ~ <i>#</i> </span>I'm a junior year CS undergrad at <a target='_blank' href='https://www.nitt.edu'>NIT, Trichy.</a><br/>
+<html lang="en">
 
-                <!-- Hometown -->
-                <span class='red'>root ~ <i>#</i> </span>I come from the city of <a target='_blank' href='https://en.wikipedia.org/wiki/Kolkata'>Kolkata</a>, West Bengal.<br/><br/>
+    <head>
 
-                <!-- What I like -->
-                <span class='red'>root ~ <i>#</i> </span>I <span style='color:#FF1493'>&hearts;</span> <span class='green'>Open Source</span> and <span class='green'>Algorithmic Programming</span>.<br/>
+        <title>Deep Bhattacharyya</title>
 
-                <!-- Programming Languages -->
-                <span class='red'>root ~ <i>#</i> </span>My favourite programming languages are <a target='_blank' href='https://en.wikipedia.org/wiki/C%2B%2B'>C++</a>, <a target='_blank' href='https://golang.org'>Golang</a>
-                and <a target='_blank' href='https://www.python.org'>Python</a> (In that order). And I love <a target='_blank' href='https://www.linux.org'>Linux</a>.<br/>
+        <meta name="description" content="">
 
-                <!-- Hobbies -->
-                <span class='red'>root ~ <i>#</i> </span>Also, I like reading blog posts, articles and listening to music. And I am a huge fan of <a target='_blank' href='https://en.wikipedia.org/wiki/Christopher_Nolan'>Christopher Nolan</a> 
-                <span class='yellow'>&#9786;</span><br/><br/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-                <!-- Experience -->
-                <span class='red'>root ~ <i>#</i> </span>cat <span class='yellow'>MyExperience.txt</span><br/>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="dB-Favicon.png"/>
 
-                <!-- IIT Bombay -->
-                Summer Engineering Intern at <a target='_blank' href='https://www.iitb.ac.in'>IIT, Bombay</a> (May'17 - July'17)<br>
+        <!-- Google Font: Lato -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-                <!-- Sportscafe -->
-                Frontend Developer Intern at <a target='_blank' href='http://www.sportscafe.in'>Sportscafe</a>, Bangalore (Dec'16 - Jan'17)<br>
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" />
 
-                <!-- Delta Force -->
-                Software Developer at <a target='_blank' href='http://delta.nitt.edu'>Delta Force</a> (Aug'16 - Present)<br><br>
+        <!-- Nivo Lightbox-->
+        <link rel="stylesheet" href="assets/css/nivo-lightbox.css" />
+        <link rel="stylesheet" href="assets/css/default.css" />
 
-                <!-- LinkedIn and Github profiles -->
-                <span class='red'>root ~ <i>#</i> </span>cat <span class='yellow'>YouCanFindMeOn.txt</span><br/>
-                <a target='_blank' href='https://www.linkedin.com/in/deep14/'>LinkedIn <img src='linkedin-logo.png'/></a>
-                &emsp;&emsp;<a target='_blank' href='https://github.com/coderick14'>GitHub <img src='github-logo.png'/></a><br><br>
-
-                <!-- Resume -->
-                <span class='red'>root ~ <i>#</i> </span>Here's a link to my <a target='_blank' href='Resume.pdf'>resume</a>.<br/><br>
-
-                <!-- Feedback -->
-                <span class='red'>root ~ <i>#</i> </span>Have something to talk about? Feel free to drop me an 
-                <a href='mailto:bhattacharyya.deep@outlook.com'>email</a>. Thanks a lot!!
-            </span>
-        </div>
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
         
-    </div>
-    <footer>Made with HTML, CSS, Google Fonts and lots of <span style='color:#FF1493'>&hearts;</span></footer>
-    <!-- Remove JQuery -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
-    <!-- Remove TypedJS -->
-    <!-- <script type="text/javascript" src="js/typed.js"></script> -->
-</body>
+        <!-- Themes -->
+        <!--<link rel="stylesheet" href="assets/css/themes.light.css">-->
+        <link rel="stylesheet" href="assets/css/themes.dark.css">
+        
+        <!-- Custom CSS -->
+        <!--<link rel="stylesheet" href="assets/css/custom.css">-->
+
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+        <!-- dense.js (Retina plugin) -->
+        <script src="assets/js/dense.js"></script>
+
+        <!-- Nivo Lightbox -->
+        <script src="assets/js/nivo-lightbox.min.js"></script>
+
+        <!-- ScrollReveal -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="c-preloader  js-preloader">
+            <div class="c-preloader__spinner  t-preloader__spinner"></div>
+        </div>
+
+        <div class="c-main-container  js-main-container">
+
+
+
+            <!-- ################################ -->
+            <!-- ############ HEADER ############ -->
+            <!-- ################################ -->
+            
+            <section class="o-section o-section--header  t-section  t-section--header">
+                <div class="c-header">
+
+                    <div class="o-section__header-bg  t-section__header"></div>
+                    <div class="o-section__content-bg  t-section__content"></div>
+
+                    <div class="o-container">
+                        <div class="o-section__container">
+
+                            <header class="o-section__header  c-header__header  t-section__header">
+                                <div class="c-header__inner-header">
+
+                                    <div class="c-header__avatar">
+                                        <div class="a-header  c-avatar">
+                                            <img class="c-avatar__img" src="assets/images/deep.jpg" alt="">
+                                        </div><!-- /c-avatar -->
+                                    </div><!-- /c-header-avatar -->
+
+                                </div><!-- /c-header__inner-header -->
+                            </header><!-- /o-section__header -->
+
+                            <div class="o-section__content  c-header__content  t-section__content">
+                                <div class="c-header__inner-content">
+
+                                    <div class="c-header__top">
+
+                                        <div class="c-header__brand">
+
+                                            <div class="c-brand">
+                                                <h1 class="c-brand__title  t-title">
+                                                    <span class="c-brand__sizer">
+                                                        <span class="a-header  c-brand__second-word  t-title__second-word">
+                                                            Deep
+                                                        </span>
+                                                        <span class="a-header  c-brand__first-word  t-title__first-word">
+                                                            Bhattacharyya
+                                                        </span>
+                                                    </span>
+                                                </h1>
+                                                <h2 class="a-header  c-brand__sub-title  t-sub-title">
+                                                    <span class="c-brand__sizer">
+                                                        CS Undergrad. Software Developer. Algorithmic programmer.
+                                                    </span>
+                                                </h2>
+                                            </div><!-- /c-brand -->
+
+                                        </div><!-- /c-header__brand -->
+
+                                        <ul class="c-header__social-buttons  c-social-buttons">
+                                            <li class="a-header">
+                                                <a href="https://github.com/coderick14" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-github"></i>
+                                                </a>
+                                            </li>
+                                            <li class="a-header">
+                                                <a href="https://www.linkedin.com/in/deep14" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                            <li class="a-header">
+                                                <a href="https://www.facebook.com/profile.php?id=100010424946860" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="a-header">
+                                                <a href="Resume.pdf" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-file-pdf-o"></i>
+                                                </a>
+                                            </li>
+                                        </ul><!-- /c-header__social-buttons -->
+
+                                    </div><!-- /c-header__top -->
+
+                                    <div class="c-header__contact">
+
+                                        <hr class="a-header  c-header__contact-divider" />
+
+                                        <div class="o-grid">
+
+                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                        <h4>Location</h4>
+                                                        <address>
+                                                            Trichy, India
+                                                        </address>
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                        <h4>College</h4>
+                                                        <p>
+                                                            NIT, Trichy
+                                                        </p>
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                        <a href="http://deep14.me" target="_blank" class="t-link-container">
+                                                            <h4>Web</h4>
+                                                            <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                    deep14.me
+                                                                </span>
+                                                            </p>
+                                                        </a><!-- /o-link-container -->
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                        <a href="mailto:bhattacharyya.deep@outlook.com" target="_blank" class="t-link-container">
+                                                            <h4>Email</h4>
+                                                            <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                    bhattacharyya.deep@outlook.com
+                                                                </span>
+                                                            </p>
+                                                        </a><!-- /o-link-container -->
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /c-header__contact -->
+
+                                </div><!-- /c-header__inner-content -->
+                            </div><!-- /o-section__content -->
+
+                        </div><!-- /o-section__container -->
+
+                    </div><!-- /o-container -->
+
+                </div><!-- /c-header -->
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ############ INTRO ############# -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Intro
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    What I am all about.
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+                                        <p>
+                                            Hello there! I'm Deep, a junior year Computer Science undergraduate student at <a href="https://nitt.edu" target="_blank">NIT, Tiruchirappalli</a>. I love solving algorithmic challenges, attending competitions, working on projects that make life a little easier and hacking on random things. Apart from that, I love readings blog articles, watching movies and travelling.
+                                        </p>
+                                        <p>
+                                        I'm a core member of <a href="https://delta.nitt.edu" target="_blank">Delta Force</a>, the official programming club of our college. I've worked on both frotend and backend web technologies, mostly in ReactJS, Golang and Python. I <em>love</em> the terminal and have built a few command-line tools as well. So yes, I spend most of my time writing code<em>(or reading code written by someone else!)</em>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ##########  SKILLS  ############ -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Skills
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                   Spent a lot of time on these. 
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-media  o-media--block  o-content">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                01
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3>Competitive Programming</h3>
+                                            <p>
+                                                Actively participated in programming contests on <a href="https://codechef.com/users/coderick14">CodeChef</a> and
+                                                <a href="https://codeforces.com/profile/coderick14">Codeforces</a>. Secured a rank of 11/121 in ACM ICPC Chennai regionals, 2018.
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-media  o-media--block  o-content">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                02
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3>Web Frontend</h3>
+                                            <p>
+                                                Worked on developing responsive web applications using  HTML5, CSS3, Vanilla JS and ReactJS.   
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-media  o-media--block  o-content">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                03
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3>Web Backend</h3>
+                                            <p>
+                                                Worked on developing backend services in Golang, PHP and Python. Developed applications using REST and gRPC.
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-media  o-media--block  o-content">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                04
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body  o-content__body">
+                                            <h3>Command-line tools</h3>
+                                            <p>
+                                                Developed CLI tools in Python, Golang and Shell for multiple purposes. Check out the projects section for more details!
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-media o-content -->
+                                </div><!-- /o-grid__col -->
+
+                            </div><!-- /o-grid -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ######### LANGUAGES ############ -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Languages, Tools &amp; Frameworks
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Progress bars, anyone?
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    85<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>C++</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="85"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    75<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Golang</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="75"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    70<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Python</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="70"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    85<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Git</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="85"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    80<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Javascript</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="80"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    75<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>ReactJS</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="75"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    65<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>MySQL</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="65"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    60<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Shell</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="60"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                            </div><!-- /o-grid -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ########## EXPERIENCE ########## -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Experience
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Yes. I&#39;ve been around.
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  u-pb-0">
+                            
+                            <div class="a-experience-timeline  c-timeline  t-border-color">
+
+                                <div class="c-timeline__item">
+                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                    <div class="o-content">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col-md-5">
+                                                <div class="c-work__timeframe">
+                                                    2016 &ndash; Present
+                                                </div>
+                                                <h3 class="c-work__heading">
+                                                    Delta Force
+                                                </h3>
+                                                <h4 class="c-work__title">
+                                                    Software Developer
+                                                </h4>
+                                                <div class="c-work__location">
+                                                    Trichy, Tamil Nadu, India
+                                                </div>
+                                            </div>
+                                            <div class="o-grid__col-md-7">
+                                                <p>
+                                                    Core member at the college's most elite programming society and NIT Trichy webteam. Contributed to the backend services and APIs powering Festember and Pragyan, which received over 200,000 hits last year.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /c-timeline__item -->
+
+                                <div class="c-timeline__item">
+                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                    <div class="o-content">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col-md-5">
+                                                <div class="c-work__timeframe">
+                                                    May, 2017 &ndash; July, 2017
+                                                </div>
+                                                <h3 class="c-work__heading">
+                                                    Indian Institute of Technology, Bombay
+                                                </h3>
+                                                <h4 class="c-work__title">
+                                                    Summer Engineering Intern
+                                                </h4>
+                                                <div class="c-work__location">
+                                                    Mumbai, India
+                                                </div>
+                                            </div>
+                                            <div class="o-grid__col-md-7">
+                                                <p>
+                                                    Developed a load sharing, scalable architecture for remote-triggered virtual lab systems with Raspberry Pis acting as the secondary servers. Led to a 30% reduction in load on the primary server and increased fault tolerance of the system.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /c-timeline__item -->
+
+                                <div class="c-timeline__item">
+                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                    <div class="o-content">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col-md-5">
+                                                <div class="c-work__timeframe">
+                                                    Dec, 2016 &ndash; Jan, 2017
+                                                </div>
+                                                <h3 class="c-work__heading">
+                                                    Sportscafe
+                                                </h3>
+                                                <h4 class="c-work__title">
+                                                    Frontend Developer Intern
+                                                </h4>
+                                                <div class="c-work__location">
+                                                    Bangalore, India
+                                                </div>
+                                            </div>
+                                            <div class="o-grid__col-md-7">
+                                                <p>
+                                                    Developed components to cover the fixtures, standings, results and live commentary of sports tournaments, using ReactJS. All code was reviewed, perfected, and pushed to production.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /c-timeline__item -->
+
+                            </div><!-- /c-timeline -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ########### EDUCATION ########## -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Education
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Studying never gets old-fashioned.
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  u-pt-0">
+                            
+                            <div class="o-content">
+                                <div class="a-education-timeline  c-timeline  t-border-color  o-section__full-top-space">
+                                    <div class="c-timeline__end  t-border-color"></div>
+
+                                    <div class="c-timeline__item">
+                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                        <div class="o-content">
+                                            <div class="o-grid">
+                                                <div class="o-grid__col-md-5">
+                                                    <div class="c-work__timeframe">
+                                                        2015 &ndash; Present
+                                                    </div>
+                                                    <h3 class="c-work__heading">
+                                                        National Institute of Technology, Tiruchirappalli
+                                                    </h3>
+                                                    <h4 class="c-work__title">
+                                                        B.Tech. in Computer Science &amp; Engineering
+                                                    </h4>
+                                                    <div class="c-work__location">
+                                                        Trichy, Tamil Nadu, India
+                                                    </div>
+                                                </div>
+                                                <div class="o-grid__col-md-7">
+                                                    <p>
+                                                    Presently in my third year with a CGPA of 9.61 on a scale of 10. Won a medal on Institute Day, 2018 for securing the 2<sup>nd</sup> rank in the department. Was awarded Dr. Sargurudoss Memorial Award for securing the first rank in Mathematics in First Year, B.Tech. programmeduring the academic year 2015-16. 
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-grid -->
+                                        </div><!-- /o-content -->
+                                    </div><!-- /c-timeline__item -->
+
+                                    <div class="c-timeline__item">
+                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                        <div class="o-content">
+                                            <div class="o-grid">
+                                                <div class="o-grid__col-md-5">
+                                                    <div class="c-work__timeframe">
+                                                        2013 &ndash; 2015
+                                                    </div>
+                                                    <h3 class="c-work__heading">
+                                                        Delhi Public School, Ruby Park
+                                                    </h3>
+                                                    <h4 class="c-work__title">
+                                                        AISSCE examination
+                                                    </h4>
+                                                    <div class="c-work__location">
+                                                        Kolkata, India
+                                                    </div>
+                                                </div>
+                                                <div class="o-grid__col-md-7">
+                                                    <p>
+                                                        Secured 98.6%, with an All India rank of 8 and the position of Zonal Topper(Eastern).
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-grid -->
+                                        </div><!-- /o-content -->
+                                    </div><!-- /c-timeline__item -->
+
+                                </div><!-- /c-timeline -->
+                            </div><!-- /o-content -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ########### PROJECTS ########### -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Projects
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Here, it gets interesting.
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <a href="https://github.com/coderick14/ACedIt" target="_blank" class="t-link-container">
+                                            <div class="o-media  o-media--block">
+                                                <div class="o-media__figure">
+                                                    <div class="c-profile__icon">
+                                                        <i class="fa  fa-lg  fa-check"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="o-media__body  o-content__body">
+                                                    <h3 class="t-link-container__item">
+                                                        ACEDIT
+                                                    </h3>
+                                                    <p>
+                                                        CLI tool to run your solution against test cases. Supports Codeforces, Codechef, Hackerrank and Spoj.
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-media -->
+                                        </a><!-- /t-link-container -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <a href="https://github.com/coderick14/ARMed" target="_blank" class="t-link-container">
+                                            <div class="o-media  o-media--block">
+                                                <div class="o-media__figure">
+                                                    <div class="c-profile__icon">
+                                                        <i class="fa  fa-lg  fa-code"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="o-media__body  o-content__body">
+                                                    <h3 class="t-link-container__item">
+                                                        ARMED
+                                                    </h3>
+                                                    <p>
+                                                        Terminal-based emulator of the ARMv7 instruction set in Golang.
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-media -->
+                                        </a><!-- /t-link-container -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <a href="https://github.com/coderick14/stanford-dl" target="_blank" class="t-link-container">
+                                            <div class="o-media  o-media--block">
+                                                <div class="o-media__figure">
+                                                    <div class="c-profile__icon">
+                                                        <i class="fa  fa-lg  fa-download"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="o-media__body  o-content__body">
+                                                    <h3 class="t-link-container__item">
+                                                        STANFORD-DL
+                                                    </h3>
+                                                    <p>
+                                                        CLI tool to download videos and pdfs from Stanford Engineering Everywhere.
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-media -->
+                                        </a><!-- /t-link-container -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <a href="https://github.com/coderick14/tusker" target="_blank" class="t-link-container">
+                                            <div class="o-media  o-media--block">
+                                                <div class="o-media__figure">
+                                                    <div class="c-profile__icon">
+                                                        <i class="fa  fa-lg  fa-terminal"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="o-media__body  o-content__body">
+                                                    <h3 class="t-link-container__item">
+                                                        TUSKER
+                                                    </h3>
+                                                    <p>
+                                                        A dead simple command-line todo manager in shell. And yes, it's POSIX compatible.
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-media -->
+                                        </a><!-- /t-link-container -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                            </div><!-- /o-grid -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+            <!-- ################################ -->
+            <!-- ############ HEADER ############ -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Awards
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Happy times!
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-md-4  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <hr class="c-deco-line  t-primary-color-line" />
+                                        <div class="o-content__body">
+                                            <h3>ACM ICPC Regionals, 2018</h3>
+                                            <p>
+                                                Secured a rank of 11/121 teams in the ACM ICPC Chennai Regionals.
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-md-4  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <hr class="c-deco-line  t-primary-color-line" />
+                                        <div class="o-content__body">
+                                            <h3>Code-o-Soccer, 2017</h3>
+                                            <p>
+                                            Secured 1<sup>st</sup> position at this strategy-based coding event, where one is required to design and code the AI for a team of autonomous soccer playing bots.
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-md-4  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <hr class="c-deco-line  t-primary-color-line" />
+                                        <div class="o-content__body">
+                                            <h3>Pragyan Hackathon, 2016</h3>
+                                            <p>
+                                            Secured 1<sup>st</sup> position for developing a bot that acts a companion while you are low and depressed.
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                            </div><!-- /o-grid -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+            <!-- ################################ -->
+            <!-- ############ FOOTER ############ -->
+            <!-- ################################ -->
+            
+            <section class="o-section  t-section  o-section--footer">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Contact
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Say hello!
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                                <div class="c-footer__contact">
+                                    <div class="o-grid">
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <h4>Location</h4>
+                                                    <address>
+                                                        Trichy, India
+                                                    </address>
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
+
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <h4>College</h4>
+                                                    <p>
+                                                    NIT, Trichy
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
+
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <a href="http://deep14.me" target="_blank" class="t-link-container">
+                                                        <h4>Web</h4>
+                                                        <p>
+                                                        <span class="t-link-container__item--blended">
+                                                            deep14.me
+                                                        </span>
+                                                        </p>
+                                                    </a><!-- /o-link-container -->
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
+
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <a href="mailto:bhattacharyya.deep@outlook.com" target="_blank" class="t-link-container">
+                                                        <h4>Email</h4>
+                                                        <p>
+                                                        <span class="t-link-container__item--blended">
+                                                            bhattacharyya.deep@outlook.com
+                                                        </span>
+                                                        </p>
+                                                    </a><!-- /o-link-container -->
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
+
+                                    </div><!-- /o-grid -->
+                                </div><!-- /c-footer__contact -->
+
+                                <hr class="c-footer__contact-divider" />
+
+                                <div class="o-content">
+                                    <div class="c-footer__bottom">
+                                        <div class="c-footer__brand">
+
+                                            <div class="c-brand">
+                                                <div class="o-content__body">
+                                                    <h1 class="c-brand__title  t-title">
+                                                        <span class="c-brand__sizer  c-brand__sizer--sm">
+                                                            <span class="a-header  c-brand__second-word  t-title__second-word">
+                                                                Deep
+                                                            </span>
+                                                            <span class="a-header  c-brand__first-word  t-title__first-word">
+                                                                Bhattacharyya
+                                                            </span>
+                                                        </span>
+                                                    </h1>
+                                                </div><!-- /o-content__body -->
+                                            </div><!-- /c-brand -->
+
+                                        </div><!-- /c-footer__brand -->
+
+                                        <ul class="c-footer__social-buttons  c-social-buttons  o-content__body">
+                                            <li class="a-header">
+                                                <a href="https://github.com/coderick14" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-github"></i>
+                                                </a>
+                                            </li>
+                                            <li class="a-header">
+                                                <a href="https://www.linkedin.com/in/deep14" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                            <li class="a-header">
+                                                <a href="https://www.facebook.com/profile.php?id=100010424946860" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="a-header">
+                                                <a href="Resume.pdf" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa  fa-lg  fa-file-pdf-o"></i>
+                                                </a>
+                                            </li>
+                                        </ul><!-- /c-footer__social-buttons -->
+
+                                    </div><!-- /c-footer__bottom -->
+                                </div><!-- /o-content -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+
+
+        </div><!-- /c-main-container -->
+
+    </body>
+
 </html>
